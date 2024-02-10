@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sintaxis</title>
+<style type="text/css">
+<!--
+.style16 {	font-family: sans-serif;
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold;
+}
+.style17 {
+	font-family: sans-serif;
+	font-size: 24px;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+//-->
+</script>
+</head>
+
+<body>
+<form name="form1" class="style16" id="form1">
+  <div align="right">
+    <p align="center"><a href="INICIO1.html"><img src="Official_Elixir_logo.png" width="133" height="49" align="left" />INICIO</a> <a href="HISTORIA.html" target="all">HISTORIA</a>
+        <select name="menu2" onchange="MM_jumpMenu('parent',this,0)">
+          <option value="CARACTERISITCAS.html">CARACTERISTICAS</option>
+          <option value="ELIXIR FRENTE A OTROS LENGUAJES.html">ELIXIR FRENTE A OTROS LENGUAJES</option>
+        </select>
+        <input type="button" name="Button2" value="Go" onclick="MM_jumpMenuGo('menu2','parent',0)" />
+        <select name="menu1" onchange="MM_jumpMenu('parent',this,0)">
+          <option value="UntitledFrame-2.html">&iquest;COMO FUNCIONA?</option>
+          <option value="untitled4.html">SINTAXIS</option>
+          <option value="TIPOSDEDATOSYESTRUCTURAELIXIR.html">TIPOS DE DATOS Y ESTRUCTURA</option>
+          <option value="MODULOS Y FUNCIONES.html">MODULOS Y FUNCIONES</option>
+          <option value="BIBLIOTECAS Y FRAMEWORKS.html">BIBLIOTECAS Y FRAMEWORKS</option>
+        </select>
+        <input type="button" name="Button1" value="Go" onclick="MM_jumpMenuGo('menu1','parent',0)" />
+      <a href="CASOS DE USO.html" target="all">CASOS DE USO</a> <a href="CONCLUSION.html">CONCLUSION</a> <a href="FORMULARIO.html">FORMULARIO</a> </p>
+  </div>
+</form>
+<p>&nbsp;</p>
+<p align="center" class="style17"><img src="sintaxis.png" width="1312" height="184" /></p>
+<p align="center" class="style17">&nbsp;</p>
+<p align="center" class="style17">La sintaxis de Elixir es similar a la de Ruby, lo que lo  convierte en una opci&oacute;n popular para los desarrolladores que ya est&aacute;n  familiarizados con ese lenguaje. Sin embargo, hay algunas diferencias clave a  tener en cuenta. Elixir utiliza un paradigma de programaci&oacute;n funcional, lo que  significa que se centra en estructuras de datos inmutables y funciones  matem&aacute;ticas en lugar de objetos mutables y programaci&oacute;n imperativa.<br />
+</p>
+<p align="center" class="style17">Una de las caracter&iacute;sticas clave de la sintaxis de Elixir es  la concordancia de patrones, que permite a los desarrolladores hacer coincidir  la estructura de los datos en lugar de s&oacute;lo su valor. Esto facilita la  escritura de c&oacute;digo que maneje estructuras de datos complejas y lo hace m&aacute;s  expresivo que los lenguajes de programaci&oacute;n imperativos tradicionales.</p>
+</body>
+</html>
